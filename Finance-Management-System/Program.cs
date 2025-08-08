@@ -1,11 +1,14 @@
 ﻿using System;
 using Finance_Management_System;
 
-class Program
+namespace Finance_Management_System
 {
-    static void Main(string[] args)
+    class Program
     {
-        FinanceApp app = new FinanceApp();
-        
+        static void Main(string[] args)
+        {
+            FinanceApp app = new FinanceApp();
+            app.Run();
+        }
     }
 }
